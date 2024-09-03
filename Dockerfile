@@ -11,6 +11,7 @@ FROM golang:1.22.0 AS build-stage
 
   RUN CGO_ENABLED=0 GOOS=linux go build -o /api ./cmd/main.go
 
+  
   # Run the tests in the container
 FROM build-stage AS run-test-stage
   RUN go test -v ./...

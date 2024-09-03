@@ -6,9 +6,9 @@ import (
 	"log"
 
 	"github.com/go-sql-driver/mysql"
-	"github.com/sikozonpc/ecom/cmd/api"
-	"github.com/sikozonpc/ecom/configs"
-	"github.com/sikozonpc/ecom/db"
+	"github.com/sebastianx9407x/go-server-ecom/cmd/api"
+	"github.com/sebastianx9407x/go-server-ecom/configs"
+	"github.com/sebastianx9407x/go-server-ecom/db"
 )
 
 func main() {
