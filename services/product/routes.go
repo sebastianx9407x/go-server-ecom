@@ -7,9 +7,9 @@ import (
 
 	"github.com/go-playground/validator/v10"
 	"github.com/gorilla/mux"
-	"github.com/sikozonpc/ecom/services/auth"
-	"github.com/sikozonpc/ecom/types"
-	"github.com/sikozonpc/ecom/utils"
+	"github.com/sebastianx9407x/go-server-ecom/services/auth"
+	"github.com/sebastianx9407x/go-server-ecom/types"
+	"github.com/sebastianx9407x/go-server-ecom/utils"
 )
 
 type Handler struct {
