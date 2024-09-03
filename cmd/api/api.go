@@ -6,10 +6,10 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/sikozonpc/ecom/services/cart"
-	"github.com/sikozonpc/ecom/services/order"
-	"github.com/sikozonpc/ecom/services/product"
-	"github.com/sikozonpc/ecom/services/user"
+	"github.com/sebastianx9407x/go-server-ecom/services/cart"
+	"github.com/sebastianx9407x/go-server-ecom/services/order"
+	"github.com/sebastianx9407x/go-server-ecom/services/product"
+	"github.com/sebastianx9407x/go-server-ecom/services/user"
 )
 
 type APIServer struct {

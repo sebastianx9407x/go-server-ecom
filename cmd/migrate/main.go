@@ -9,8 +9,8 @@ import (
 	"github.com/golang-migrate/migrate/v4"
 	mysqlMigrate "github.com/golang-migrate/migrate/v4/database/mysql"
 	_ "github.com/golang-migrate/migrate/v4/source/file"
-	"github.com/sikozonpc/ecom/configs"
-	"github.com/sikozonpc/ecom/db"
+	"github.com/sebastianx9407x/go-server-ecom/configs"
+	"github.com/sebastianx9407x/go-server-ecom/db"
 )
 
 func main() {
