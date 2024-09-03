@@ -1,4 +1,4 @@
-module github.com/sikozonpc/ecom
+module github.com/sebastianx9407x/go-server-ecom/
 
 go 1.22.0
 
