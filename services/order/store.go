@@ -3,8 +3,9 @@ package order
 import (
 	"database/sql"
 
-	"github.com/sikozonpc/ecom/types"
+	"github.com/sebastianx9407x/go-server-ecom/types"
 )
+
 
 type Store struct {
 	db *sql.DB
